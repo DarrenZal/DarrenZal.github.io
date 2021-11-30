@@ -95,7 +95,7 @@ class App extends Component {
       const deployedNetwork = CICfactory.networks[networkId];
       const instance = new web3.eth.Contract(
         CICfactory.abi,
-        deployedNetwork && deployedNetwork.address,
+        "0x2664206dae741fFF6Bc812d71B1676285588BCdC"
       );
 
       // Set web3, accounts, and contract to the state, and then proceed with an
